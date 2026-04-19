@@ -1,45 +1,83 @@
 # Kasa Quest 💸
 
-Gamified financial education app built for PKO Bank Polski — ETHSilesia 2026.
+A financial investment simulator for students who have never invested before. Learn where money can go and what happens when it does — in 30–60 minutes, not months.
 
 ---
 
-## The idea
+## The problem
 
-Most students never open a deposit account because nobody explained why they should. Kasa Quest fixes that — through a game, not a lecture.
+Most students know they should be saving and investing. Almost none of them do — because nobody explained the difference between a deposit, a bond fund, and an ETF in a way that actually sticks. Traditional financial education is boring. Real-time simulators like Binance demo take hours before you see anything meaningful.
 
-You enter your nickname and start making real financial decisions. Every choice is permanent. No going back. Real consequences, zero real money lost.
+Kasa Quest compresses a full investment year into one session.
+
+---
+
+## How it works
+
+You start with 1 000 PLN and receive 400 PLN every month for 12 months. Your money lives in two places — your wallet and your investments. Each month you decide what to do with both.
+
+Every decision is permanent. No going back. Just like real life.
+
+At the end of month 12 you get a full breakdown of your year, a Financial IQ score across four categories, and a spot on the global leaderboard.
 
 ---
 
 ## Onboarding — two layers
 
 **Layer 1 — Comic (financial knowledge)**
-8 swipeable scenes following Ola, a student from Katowice who just got her first paycheck. Each scene introduces one PKO product through her story — not through advertising. After each scene, one quick quiz question to lock in the concept. A quiet link to the full PKO product page sits at the bottom.
+8 swipeable scenes following Ola, a student from Katowice who just got her first paycheck. Each scene explains one concept clearly — what it is, what return to expect, whether you can withdraw monthly, and what the risk level is. After each scene, a quick quiz locks in the concept. A quiet link to the real PKO product page sits at the bottom.
 
-Products covered: PKO Konto Studenckie · PKO Depozyt · PKO TFI · IKE
+Concepts covered: savings account · fixed deposit · government bonds · investment funds · S&P 500 ETF · crypto risk and transaction fees · student loan mechanics
 
 **Layer 2 — Game tutorial**
-One guided event with tooltips showing how decisions, outcomes, and the Time Machine work. Takes 2 minutes. Then you're on your own.
+First month plays with tooltip overlays showing how the UI works. Two minutes, then you're on your own.
 
 ---
 
-## How the game works
+## Investment options
 
-Each day brings a new financial event. You pick an answer — and live with it. After the decision you see the outcome, a short AI comment, and a Time Machine graph projecting your balance over 10 years.
+Seven ways to use your money each month, each with different risk and liquidity:
 
-Then you can open **"What if?"** — a read-only view of how the alternative choice would have played out. You see it, you learn from it, but you can't switch.
+- **Wallet (cash)** — always available, silently loses value (Poland's avg inflation 2021–2025: ~7.5%/year)
+- **PKO Konto Oszczędnościowe** — safe, liquid, ~3–4% annual
+- **PKO Depozyt** — higher return, locked 3 or 6 months
+- **Obligacje skarbowe** — government bonds, locked 12 months, ~6–7%
+- **PKO TFI funds** — low volatility fund, withdraw any month
+- **S&P 500 ETF** — index fund, medium risk, volatile
+- **ETH** — high upside, high risk, 4% fee on buy and sell
 
-Your Financial IQ score across 4 categories (Budgeting / Investing / Risk / Saving) goes on the global leaderboard by nickname.
+Buying and selling crypto includes a transaction fee shown before you confirm. This is intentional — frequent trading erodes returns even when prices go up.
+
+---
+
+## Key mechanics
+
+**Loan** — an optional student loan is available to all players. You get the money, but you pay it back monthly. If your wallet runs dry, you take a penalty. Investing borrowed money in crypto is possible — but the AI will flag exactly why that's dangerous.
+
+**"What if?" mode** — after every decision, open a read-only view of the alternative timeline. See what would have happened if you had chosen differently. You can't switch — but you learn.
+
+**Monthly AI summary** — after each month, Claude gives a 3-sentence recap of what you did and one observation about your strategy. Not a lecture. More like a friend who knows finance.
+
+**Same charts for all players** — based on real asset class behavior but slightly randomized, so knowing actual 2024 market history doesn't give you an advantage.
+
+---
+
+## Why faster is better for learning
+
+Real-time simulators like Binance demo are valuable — but they require hours of watching to see meaningful movement. Kasa Quest is not trying to replace that. It's for the first step: understanding the basic concepts of where money can go and what the tradeoffs are. A student can finish a full simulated investment year in one lunch break and come away knowing what an ETF actually does.
 
 ---
 
 ## PKO products
 
-Accessible any time via the **Bank tab** in the bottom menu. Clean list, one sentence per product, link to PKO website. Nothing pops up, nothing interrupts the game. By the time a player opens this tab, the comic has already explained what each product does.
+PKO Bank products appear as real investment options in the game — not as ads. By the time a player opens the Bank tab, they've already used PKO Depozyt or PKO TFI in the simulation and watched how it behaved. The Bank tab has a clean list of products with one-sentence descriptions and links to the real PKO pages. Nothing pops up. Nothing interrupts the game.
 
 ---
 
-## Why it works
+## End of year
 
-Players learn by doing, not by reading. The irreversible decisions create real emotional stakes. The "What if?" mode turns every mistake into a lesson without punishment. And PKO products appear naturally — first in Ola's story, then available when the player is ready.
+After 12 months you get a full summary: total return, breakdown by asset, best and worst decision. Your Financial IQ score — across Budgeting, Investing, Risk, and Saving — goes on the global leaderboard ranked by nickname. Leaderboard ranks by IQ, not by total return, so smart diversification beats a lucky ETH bet.
+
+---
+
+## Built for ETHSilesia 2026 · PKO Bank Polski · Katowice, Poland
