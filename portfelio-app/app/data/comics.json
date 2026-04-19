@@ -1,0 +1,358 @@
+[
+  {
+    "id": 1,
+    "sceneLabel": { "pl": "Intro", "en": "Intro" },
+    "characters": [
+      {
+        "emoji": "👩",
+        "name": "Ola",
+        "description": { "pl": "Ola, 20 lat, studentka z Katowic", "en": "Ola, 20, student from Katowice" }
+      }
+    ],
+    "dialogue": [
+      {
+        "characterIndex": 0,
+        "text": {
+          "pl": "Właśnie dostałam pierwszą wypłatę. 3000 zł! Co teraz z tym zrobić?",
+          "en": "I just got my first paycheck. 3000 PLN! What do I do with it?"
+        }
+      }
+    ],
+    "content": {
+      "title": { "pl": "Poznaj Olę", "en": "Meet Ola" },
+      "body": {
+        "pl": "Ola jest taka jak ty. Właśnie zaczęła zarabiać i nie wie od czego zacząć. Gotówka leżąca w portfelu traci wartość — średnia inflacja w Polsce 2021–2025 wyniosła ~7,5% rocznie.",
+        "en": "Ola is just like you. She just started earning money and doesn't know where to begin. Cash sitting in a wallet loses value — Poland's average inflation 2021–2025 was ~7.5% per year."
+      }
+    },
+    "productCard": null,
+    "quiz": {
+      "question": {
+        "pl": "Co dzieje się z gotówką leżącą w portfelu przy inflacji 7%?",
+        "en": "What happens to cash in your wallet with 7% inflation?"
+      },
+      "options": [
+        { "text": { "pl": "Rośnie sama z siebie", "en": "It grows on its own" }, "correct": false },
+        { "text": { "pl": "Traci na wartości", "en": "It loses value" }, "correct": true }
+      ],
+      "concept": "inflation",
+      "xp": 25
+    }
+  },
+  {
+    "id": 2,
+    "sceneLabel": { "pl": "Konto Oszczędnościowe", "en": "Savings Account" },
+    "characters": [
+      {
+        "emoji": "👩",
+        "name": "Ola",
+        "description": { "pl": "Ola, 20 lat, studentka z Katowic", "en": "Ola, 20, student from Katowice" }
+      },
+      {
+        "emoji": "🧑‍💼",
+        "name": "Doradca",
+        "nameEn": "Advisor",
+        "description": { "pl": "Doradca PKO", "en": "PKO Advisor" }
+      }
+    ],
+    "dialogue": [
+      {
+        "characterIndex": 1,
+        "text": {
+          "pl": "Załóż konto oszczędnościowe. Pieniądze pracują, a ty możesz je wypłacić kiedy chcesz.",
+          "en": "Open a savings account. Your money works for you and you can withdraw anytime."
+        }
+      }
+    ],
+    "content": {
+      "title": { "pl": "PKO Konto Oszczędnościowe", "en": "PKO Savings Account" },
+      "body": {
+        "pl": "Bezpieczne i dostępne. Możesz wypłacić pieniądze w każdym miesiącu. Zwrot ~3–4% rocznie — więcej niż portfel, bez żadnego ryzyka.",
+        "en": "Safe and liquid. You can withdraw any month. Return ~3–4% per year — more than a wallet, zero risk."
+      }
+    },
+    "productCard": {
+      "name": "PKO Konto Oszczędnościowe",
+      "nameEn": "PKO Savings Account",
+      "tagline": { "pl": "Bezkosztowo dla studentów", "en": "Free for students" },
+      "url": "https://www.pkobp.pl/klient-indywidualny/konta/konto-oszczednosciowe?srsltid=AfmBOopwbFFrN-AvsUyBdTmq1a0hDrjuRENsA2PT040_xQvLlyveE08U",
+      "color": "blue"
+    },
+    "quiz": {
+      "question": {
+        "pl": "Jaką zaletę ma konto oszczędnościowe nad trzymaniem gotówki?",
+        "en": "What's the advantage of a savings account over keeping cash?"
+      },
+      "options": [
+        { "text": { "pl": "Nalicza odsetki", "en": "It earns interest" }, "correct": true },
+        { "text": { "pl": "Gwarantuje 20% zysku", "en": "Guarantees 20% return" }, "correct": false }
+      ],
+      "concept": "savings_account",
+      "xp": 25
+    }
+  },
+  {
+    "id": 3,
+    "sceneLabel": { "pl": "Depozyt", "en": "Term Deposit" },
+    "characters": [
+      {
+        "emoji": "👩",
+        "name": "Ola",
+        "description": { "pl": "Ola, 20 lat, studentka z Katowic", "en": "Ola, 20, student from Katowice" }
+      }
+    ],
+    "dialogue": [
+      {
+        "characterIndex": 0,
+        "text": {
+          "pl": "500 zł zamrożę na 6 miesięcy. Bank płaci mi odsetki za to, że nie ruszam pieniędzy!",
+          "en": "I'll lock away 500 PLN for 6 months. The bank pays me interest for leaving the money alone!"
+        }
+      }
+    ],
+    "content": {
+      "title": { "pl": "PKO Depozyt", "en": "PKO Term Deposit" },
+      "body": {
+        "pl": "Wyższy zwrot niż konto oszczędnościowe — ~5–6% rocznie. Ale uwaga: pieniądze są zamrożone na 3 lub 6 miesięcy. Wcześniejsza wypłata oznacza utratę odsetek.",
+        "en": "Higher return than a savings account — ~5–6% per year. But: money is locked for 3 or 6 months. Early withdrawal means losing the interest."
+      }
+    },
+    "productCard": {
+      "name": "PKO Depozyt",
+      "nameEn": "PKO Term Deposit",
+      "tagline": { "pl": "Stała stawka na 3–12 mies.", "en": "Fixed rate for 3–12 months" },
+      "url": "https://www.pkobp.pl/klient-indywidualny/oszczedzanie-inwestycje/lokata-na-nowe-srodki?srsltid=AfmBOoq3cYj_WHS3ru_GVh1DAZvnKmmWUQt7_mzLwIPjicQ3kdD78bZb",
+      "color": "blue"
+    },
+    "quiz": {
+      "question": {
+        "pl": "Co to jest depozyt terminowy?",
+        "en": "What is a term deposit?"
+      },
+      "options": [
+        { "text": { "pl": "Pieniądze w banku pod procent na określony czas", "en": "Money in the bank earning interest for a fixed period" }, "correct": true },
+        { "text": { "pl": "Kredyt od banku", "en": "A loan from the bank" }, "correct": false }
+      ],
+      "concept": "term_deposit",
+      "xp": 25
+    }
+  },
+  {
+    "id": 4,
+    "sceneLabel": { "pl": "Obligacje skarbowe", "en": "Government Bonds" },
+    "characters": [
+      {
+        "emoji": "👩",
+        "name": "Ola",
+        "description": { "pl": "Ola, 20 lat, studentka z Katowic", "en": "Ola, 20, student from Katowice" }
+      }
+    ],
+    "dialogue": [
+      {
+        "characterIndex": 0,
+        "text": {
+          "pl": "Państwo też pożycza pieniądze od ludzi? I płaci odsetki przez cały rok?",
+          "en": "The government borrows from people too? And pays interest for the whole year?"
+        }
+      }
+    ],
+    "content": {
+      "title": { "pl": "Obligacje skarbowe", "en": "Government Bonds" },
+      "body": {
+        "pl": "Pożyczasz pieniądze państwu na 12 miesięcy. Zwrot ~6–7% rocznie. Niskie ryzyko — Polska raczej nie zbankrutuje. Wada: pieniądze zamrożone na cały rok.",
+        "en": "You lend money to the government for 12 months. Return ~6–7% per year. Low risk — Poland isn't going bankrupt. Downside: money locked for the full year."
+      }
+    },
+    "productCard": {
+      "name": "Obligacje skarbowe",
+      "nameEn": "Government Bonds",
+      "tagline": { "pl": "Emisja Ministerstwa Finansów", "en": "Issued by Ministry of Finance" },
+      "url": "https://www.pkobp.pl/klient-indywidualny/oszczedzanie-inwestycje/obligacje-skarbowe?srsltid=AfmBOoptWwBEulmPSWVOyBubrXwog5OqB_com81BRWYfW_d253hKdiwZ",
+      "color": "blue"
+    },
+    "quiz": {
+      "question": {
+        "pl": "Kto emituje obligacje skarbowe?",
+        "en": "Who issues government bonds?"
+      },
+      "options": [
+        { "text": { "pl": "Państwo / rząd", "en": "The government" }, "correct": true },
+        { "text": { "pl": "Prywatne firmy", "en": "Private companies" }, "correct": false }
+      ],
+      "concept": "gov_bonds",
+      "xp": 25
+    }
+  },
+  {
+    "id": 5,
+    "sceneLabel": { "pl": "Fundusz obligacyjny", "en": "Bond Fund" },
+    "characters": [
+      {
+        "emoji": "👩",
+        "name": "Ola",
+        "description": { "pl": "Ola, 20 lat, studentka z Katowic", "en": "Ola, 20, student from Katowice" }
+      }
+    ],
+    "dialogue": [
+      {
+        "characterIndex": 0,
+        "text": {
+          "pl": "Fundusz inwestuje za mnie? I mogę wyjść kiedy chcę?",
+          "en": "The fund invests for me? And I can exit whenever I want?"
+        }
+      }
+    ],
+    "content": {
+      "title": { "pl": "PKO TFI — fundusz obligacyjny", "en": "PKO TFI — Bond Fund" },
+      "body": {
+        "pl": "Twoje pieniądze trafiają do puli razem z innymi. Fundusz kupuje obligacje i zarządza ryzykiem za ciebie. Zwrot ~4–7% rocznie, niska zmienność. Możesz wyjść w każdym miesiącu.",
+        "en": "Your money pools with others. The fund buys bonds and manages risk for you. Return ~4–7% per year, low volatility. You can exit any month."
+      }
+    },
+    "productCard": {
+      "name": "PKO TFI",
+      "nameEn": "PKO TFI",
+      "tagline": { "pl": "Fundusz zarządzany przez ekspertów", "en": "Professionally managed fund" },
+      "url": "https://www.pkobp.pl/klient-indywidualny/oszczedzanie-inwestycje/fundusze-inwestycyjne?srsltid=AfmBOoppFA5wO_DDER3WvbIGSr6R7wIAjwlr_RlW6pdEOu2je8Mlh7y0",
+      "color": "blue"
+    },
+    "quiz": {
+      "question": {
+        "pl": "Co robi fundusz inwestycyjny z twoimi pieniędzmi?",
+        "en": "What does an investment fund do with your money?"
+      },
+      "options": [
+        { "text": { "pl": "Inwestuje je razem z pieniędzmi innych uczestników", "en": "Invests them pooled with other participants" }, "correct": true },
+        { "text": { "pl": "Trzyma je bezpiecznie w sejfie", "en": "Keeps them safely in a vault" }, "correct": false }
+      ],
+      "concept": "mutual_fund",
+      "xp": 25
+    }
+  },
+  {
+    "id": 6,
+    "sceneLabel": { "pl": "S&P 500 ETF", "en": "S&P 500 ETF" },
+    "characters": [
+      {
+        "emoji": "👩",
+        "name": "Ola",
+        "description": { "pl": "Ola, 20 lat, studentka z Katowic", "en": "Ola, 20, student from Katowice" }
+      }
+    ],
+    "dialogue": [
+      {
+        "characterIndex": 0,
+        "text": {
+          "pl": "500 największych firm w USA naraz? Apple, Google, Amazon... wszystkie jednocześnie?",
+          "en": "The 500 biggest US companies at once? Apple, Google, Amazon... all at the same time?"
+        }
+      }
+    ],
+    "content": {
+      "title": { "pl": "S&P 500 ETF", "en": "S&P 500 ETF" },
+      "body": {
+        "pl": "ETF to fundusz notowany na giełdzie. Kupując go, inwestujesz we wszystkie firmy z indeksu naraz. Historycznie ~10% rocznie, ale z wahaniami. Możesz wyjść w każdym miesiącu.",
+        "en": "An ETF is a fund traded on the stock exchange. Buying it means investing in all index companies at once. Historically ~10% per year, but with swings. Exit any month."
+      }
+    },
+    "productCard": null,
+    "quiz": {
+      "question": {
+        "pl": "Co to jest fundusz indeksowy (ETF)?",
+        "en": "What is an index fund (ETF)?"
+      },
+      "options": [
+        { "text": { "pl": "Fundusz śledzący wyniki wielu spółek jednocześnie", "en": "A fund tracking many companies at once" }, "correct": true },
+        { "text": { "pl": "Akcja jednej konkretnej firmy", "en": "A share of one specific company" }, "correct": false }
+      ],
+      "concept": "index_fund",
+      "xp": 25
+    }
+  },
+  {
+    "id": 7,
+    "sceneLabel": { "pl": "Kryptowaluty", "en": "Crypto" },
+    "characters": [
+      {
+        "emoji": "👩",
+        "name": "Ola",
+        "description": { "pl": "Ola, 20 lat, studentka z Katowic", "en": "Ola, 20, student from Katowice" }
+      }
+    ],
+    "dialogue": [
+      {
+        "characterIndex": 0,
+        "text": {
+          "pl": "Na TikToku wszyscy zarabiają na kryptowalutach. To chyba łatwe pieniądze?",
+          "en": "On TikTok everyone's making money on crypto. Seems like easy money?"
+        }
+      }
+    ],
+    "content": {
+      "title": { "pl": "ETH (Ethereum)", "en": "ETH (Ethereum)" },
+      "body": {
+        "pl": "Kryptowaluty mogą rosnąć bardzo szybko — ale równie szybko spaść o 50–80%. To bliskie hazardowi, nie inwestowaniu. Każda transakcja kosztuje 4% prowizji. Kupno za pożyczone pieniądze = bardzo wysokie ryzyko.",
+        "en": "Crypto can grow very fast — but drop 50–80% just as fast. It's closer to gambling than investing. Every transaction costs a 4% fee. Buying with borrowed money = very high risk."
+      }
+    },
+    "productCard": null,
+    "quiz": {
+      "question": {
+        "pl": "Co odróżnia kryptowaluty od obligacji skarbowych?",
+        "en": "What distinguishes crypto from government bonds?"
+      },
+      "options": [
+        { "text": { "pl": "Znacznie wyższe ryzyko i zmienność", "en": "Much higher risk and volatility" }, "correct": true },
+        { "text": { "pl": "Gwarantowany zysk przez rząd", "en": "Guaranteed return from the government" }, "correct": false }
+      ],
+      "concept": "crypto_risk",
+      "xp": 25
+    }
+  },
+  {
+    "id": 8,
+    "sceneLabel": { "pl": "Kredyt studencki", "en": "Student Loan" },
+    "characters": [
+      {
+        "emoji": "👩",
+        "name": "Ola",
+        "description": { "pl": "Ola, 20 lat, studentka z Katowic", "en": "Ola, 20, student from Katowice" }
+      }
+    ],
+    "dialogue": [
+      {
+        "characterIndex": 0,
+        "text": {
+          "pl": "Mogę wziąć kredyt studencki i zainwestować? Ale co jeśli nie będę miała na ratę?",
+          "en": "Can I take a student loan and invest it? But what if I can't afford the repayment?"
+        }
+      }
+    ],
+    "content": {
+      "title": { "pl": "Kredyt studencki", "en": "Student Loan" },
+      "body": {
+        "pl": "Kredyt daje ci dodatkowy kapitał — ale rata jest obowiązkowa co miesiąc, niezależnie od wyników inwestycji. Jeśli portfel straci wartość, a ty nie masz na ratę — dostajesz karę. Inwestowanie pożyczonych pieniędzy w krypto to bardzo wysokie ryzyko.",
+        "en": "A loan gives you extra capital — but the monthly repayment is mandatory regardless of investment performance. If your portfolio drops and you can't pay — you take a penalty. Investing borrowed money in crypto is very high risk."
+      }
+    },
+    "productCard": {
+      "name": "Kredyt studencki PKO",
+      "nameEn": "PKO Student Loan",
+      "tagline": { "pl": "Niskie oprocentowanie dla studentów", "en": "Low interest rate for students" },
+      "url": "https://www.pkobp.pl/kredyty/kredyt-studencki/",
+      "color": "gold"
+    },
+    "quiz": {
+      "question": {
+        "pl": "Co się dzieje jeśli nie masz pieniędzy na ratę kredytu?",
+        "en": "What happens if you can't afford the loan repayment?"
+      },
+      "options": [
+        { "text": { "pl": "Dostajesz karę lub zaległość", "en": "You get a penalty or fall into arrears" }, "correct": true },
+        { "text": { "pl": "Bank automatycznie poczeka", "en": "The bank automatically waits" }, "correct": false }
+      ],
+      "concept": "loan_risk",
+      "xp": 25
+    }
+  }
+]

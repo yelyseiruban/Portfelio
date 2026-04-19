@@ -1,0 +1,152 @@
+{
+  "common": {
+    "confirm": "Potwierdź",
+    "cancel": "Anuluj",
+    "continue": "Dalej",
+    "back": "Wróć",
+    "done": "Gotowe",
+    "skip": "Pomiń",
+    "loading": "Ładowanie..."
+  },
+
+  "nickname": {
+    "title": "Jak masz na imię?",
+    "placeholder": "Twój pseudonim",
+    "startGame": "Zacznij grę",
+    "language": "Język",
+    "error_empty": "Wpisz pseudonim, żeby zacząć"
+  },
+
+  "comic": {
+    "next": "Dalej",
+    "skip_all": "Pomiń wprowadzenie",
+    "quiz_correct": "Dobrze!",
+    "quiz_wrong": "Nie do końca…",
+    "quiz_xp": "+{{xp}} XP",
+    "bonus": "+200 XP — wprowadzenie ukończone!",
+    "product_link": "Zobacz ofertę PKO",
+    "start_game": "Zacznij symulację"
+  },
+
+  "month": {
+    "title": "Miesiąc {{month}} z 12",
+    "wallet": "Portfel",
+    "investments": "Inwestycje",
+    "net_worth": "Majątek netto",
+    "end_month": "Zakończ miesiąc",
+    "income_added": "+{{amount}} PLN — miesięczny dochód",
+    "loan_warning": "Uwaga: saldo bliskie racie kredytu!",
+    "month_summary": "Podsumowanie miesiąca"
+  },
+
+  "asset": {
+    "buy": "Kup",
+    "withdraw": "Wypłać",
+    "invested": "Zainwestowano",
+    "current_value": "Obecna wartość",
+    "return": "Zwrot",
+    "locked_until": "Zablokowane do miesiąca {{month}}",
+    "available": "Dostępne",
+    "risk_very_low": "Bardzo niskie ryzyko",
+    "risk_low": "Niskie ryzyko",
+    "risk_low_medium": "Niskie–średnie ryzyko",
+    "risk_medium": "Średnie ryzyko",
+    "risk_high": "Wysokie ryzyko",
+    "liquidity_any": "Wypłata w każdym miesiącu",
+    "liquidity_locked": "Zablokowane na {{months}} mies.",
+    "annual_return": "~{{pct}}% rocznie"
+  },
+
+  "assets": {
+    "wallet": "Portfel",
+    "savings_account": "PKO Konto Oszczędnościowe",
+    "deposit": "PKO Depozyt",
+    "bonds": "Obligacje skarbowe",
+    "pko_tfi": "PKO TFI — fundusz obligacyjny",
+    "sp500_etf": "S&P 500 ETF",
+    "eth": "ETH (Ethereum)"
+  },
+
+  "fee": {
+    "title": "Opłata transakcyjna",
+    "description": "Kryptowaluty pobierają opłatę {{pct}}% przy każdej transakcji.",
+    "buy_fee": "Opłata za zakup: {{fee}} PLN",
+    "withdraw_fee": "Opłata za wypłatę: {{fee}} PLN",
+    "you_invest": "Inwestujesz: {{amount}} PLN",
+    "you_receive": "Otrzymujesz: {{amount}} PLN",
+    "confirm": "Potwierdzam — widzę opłatę"
+  },
+
+  "loan": {
+    "title": "Kredyt studencki",
+    "available": "Dostępny kredyt",
+    "amount": "Kwota: {{amount}} PLN",
+    "repayment": "Rata miesięczna: {{amount}} PLN",
+    "months_remaining": "Pozostało: {{months}} mies.",
+    "take_loan": "Weź kredyt",
+    "active": "Kredyt aktywny",
+    "paid_off": "Kredyt spłacony",
+    "risk_warning": "Uwaga: inwestujesz pożyczone pieniądze w kryptowaluty. To bardzo wysokie ryzyko."
+  },
+
+  "summary": {
+    "title": "Miesiąc {{month}} — podsumowanie",
+    "portfolio_change": "Zmiana portfela",
+    "what_if": "Co by było gdyby…",
+    "next_month": "Przejdź do miesiąca {{month}}"
+  },
+
+  "year_summary": {
+    "title": "Koniec roku — wyniki",
+    "total_return": "Łączny zwrot",
+    "best_decision": "Najlepsza decyzja",
+    "worst_decision": "Najgorsza decyzja",
+    "financial_iq": "Financial IQ",
+    "iq_budgeting": "Budżetowanie",
+    "iq_investing": "Inwestowanie",
+    "iq_risk": "Zarządzanie ryzykiem",
+    "iq_saving": "Oszczędzanie",
+    "see_leaderboard": "Zobacz ranking"
+  },
+
+  "leaderboard": {
+    "title": "Ranking",
+    "rank": "Miejsce",
+    "player": "Gracz",
+    "iq_score": "Financial IQ",
+    "your_score": "Twój wynik",
+    "empty": "Brak wyników — bądź pierwszy!"
+  },
+
+  "bank": {
+    "title": "PKO Bank Polski",
+    "subtitle": "Prawdziwe produkty, które symulowałeś w grze",
+    "open_link": "Otwórz w PKO",
+    "disclaimer": "Informacje mają charakter edukacyjny. To nie jest oferta handlowa."
+  },
+
+  "portfolio": {
+    "history": "Historia majątku",
+    "allocation": "Alokacja",
+    "active_investments": "Aktywne inwestycje",
+    "no_game": "Zacznij grę — tutaj zobaczysz swój portfel",
+    "no_investments": "Brak aktywnych inwestycji — wszystko w portfelu",
+    "vs_capital": "vs kapitał wpłacony",
+    "monthly_repayment": "Rata miesięczna",
+    "months_left": "Miesięcy do spłaty",
+    "remaining_debt": "Pozostałe zadłużenie",
+    "now": "Teraz"
+  },
+
+  "navigation": {
+    "game": "Gra",
+    "portfolio": "Portfel",
+    "bank": "Bank"
+  },
+
+  "errors": {
+    "not_enough_wallet": "Niewystarczające środki w portfelu",
+    "asset_locked": "Ten produkt jest zablokowany do miesiąca {{month}}",
+    "loan_already_active": "Masz już aktywny kredyt"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "common": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "done": "Done",
+    "skip": "Skip",
+    "loading": "Loading..."
+  },
+
+  "nickname": {
+    "title": "What's your name?",
+    "placeholder": "Your nickname",
+    "startGame": "Start game",
+    "language": "Language",
+    "error_empty": "Enter a nickname to start"
+  },
+
+  "comic": {
+    "next": "Next",
+    "skip_all": "Skip intro",
+    "quiz_correct": "Correct!",
+    "quiz_wrong": "Not quite…",
+    "quiz_xp": "+{{xp}} XP",
+    "bonus": "+200 XP — intro complete!",
+    "product_link": "See PKO offer",
+    "start_game": "Start simulation"
+  },
+
+  "month": {
+    "title": "Month {{month}} of 12",
+    "wallet": "Wallet",
+    "investments": "Investments",
+    "net_worth": "Net worth",
+    "end_month": "End month",
+    "income_added": "+{{amount}} PLN — monthly income",
+    "loan_warning": "Warning: balance close to loan repayment!",
+    "month_summary": "Month summary"
+  },
+
+  "asset": {
+    "buy": "Buy",
+    "withdraw": "Withdraw",
+    "invested": "Invested",
+    "current_value": "Current value",
+    "return": "Return",
+    "locked_until": "Locked until month {{month}}",
+    "available": "Available",
+    "risk_very_low": "Very low risk",
+    "risk_low": "Low risk",
+    "risk_low_medium": "Low–medium risk",
+    "risk_medium": "Medium risk",
+    "risk_high": "High risk",
+    "liquidity_any": "Withdraw any month",
+    "liquidity_locked": "Locked {{months}} months",
+    "annual_return": "~{{pct}}% annually"
+  },
+
+  "assets": {
+    "wallet": "Wallet",
+    "savings_account": "PKO Savings Account",
+    "deposit": "PKO Deposit",
+    "bonds": "Government Bonds",
+    "pko_tfi": "PKO TFI — Bond Fund",
+    "sp500_etf": "S&P 500 ETF",
+    "eth": "ETH (Ethereum)"
+  },
+
+  "fee": {
+    "title": "Transaction fee",
+    "description": "Crypto charges a {{pct}}% fee on every transaction.",
+    "buy_fee": "Buy fee: {{fee}} PLN",
+    "withdraw_fee": "Withdraw fee: {{fee}} PLN",
+    "you_invest": "You invest: {{amount}} PLN",
+    "you_receive": "You receive: {{amount}} PLN",
+    "confirm": "I confirm — I see the fee"
+  },
+
+  "loan": {
+    "title": "Student loan",
+    "available": "Loan available",
+    "amount": "Amount: {{amount}} PLN",
+    "repayment": "Monthly repayment: {{amount}} PLN",
+    "months_remaining": "Remaining: {{months}} months",
+    "take_loan": "Take loan",
+    "active": "Loan active",
+    "paid_off": "Loan paid off",
+    "risk_warning": "Warning: you are investing borrowed money in crypto. This is very high risk."
+  },
+
+  "summary": {
+    "title": "Month {{month}} — summary",
+    "portfolio_change": "Portfolio change",
+    "what_if": "What if…",
+    "next_month": "Go to month {{month}}"
+  },
+
+  "year_summary": {
+    "title": "End of year — results",
+    "total_return": "Total return",
+    "best_decision": "Best decision",
+    "worst_decision": "Worst decision",
+    "financial_iq": "Financial IQ",
+    "iq_budgeting": "Budgeting",
+    "iq_investing": "Investing",
+    "iq_risk": "Risk management",
+    "iq_saving": "Saving",
+    "see_leaderboard": "See leaderboard"
+  },
+
+  "leaderboard": {
+    "title": "Leaderboard",
+    "rank": "Rank",
+    "player": "Player",
+    "iq_score": "Financial IQ",
+    "your_score": "Your score",
+    "empty": "No scores yet — be the first!"
+  },
+
+  "bank": {
+    "title": "PKO Bank Polski",
+    "subtitle": "Real products you simulated in the game",
+    "open_link": "Open in PKO",
+    "disclaimer": "Information is for educational purposes only. This is not a commercial offer."
+  },
+
+  "portfolio": {
+    "history": "Net worth history",
+    "allocation": "Allocation",
+    "active_investments": "Active investments",
+    "no_game": "Start a game — your portfolio will appear here",
+    "no_investments": "No active investments — everything in wallet",
+    "vs_capital": "vs capital invested",
+    "monthly_repayment": "Monthly payment",
+    "months_left": "Months left",
+    "remaining_debt": "Remaining debt",
+    "now": "Now"
+  },
+
+  "navigation": {
+    "game": "Game",
+    "portfolio": "Portfolio",
+    "bank": "Bank"
+  },
+
+  "errors": {
+    "not_enough_wallet": "Not enough funds in wallet",
+    "asset_locked": "This product is locked until month {{month}}",
+    "loan_already_active": "You already have an active loan"
+  }
+}

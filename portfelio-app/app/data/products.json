@@ -1,0 +1,58 @@
+[
+  {
+    "id": "savings_account",
+    "name": "PKO Konto Oszczędnościowe",
+    "nameEn": "PKO Savings Account",
+    "tagline": "Bezpieczne konto z dostępem w każdej chwili.",
+    "taglineEn": "Safe account, withdraw any time.",
+    "return": "~3–4% rocznie",
+    "returnEn": "~3–4% annually",
+    "risk": "Bardzo niskie",
+    "riskEn": "Very low",
+    "liquidity": "Wypłata w każdym miesiącu",
+    "liquidityEn": "Withdraw any month",
+    "url": "https://www.pkobp.pl/klient-indywidualny/konta/konto-oszczednosciowe?srsltid=AfmBOopwbFFrN-AvsUyBdTmq1a0hDrjuRENsA2PT040_xQvLlyveE08U"
+  },
+  {
+    "id": "deposit",
+    "name": "PKO Depozyt",
+    "nameEn": "PKO Deposit",
+    "tagline": "Wyższy zysk za zablokowanie środków na określony czas.",
+    "taglineEn": "Higher return in exchange for locking funds for a fixed term.",
+    "return": "~5–6% rocznie",
+    "returnEn": "~5–6% annually",
+    "risk": "Bardzo niskie",
+    "riskEn": "Very low",
+    "liquidity": "Zablokowane na 3 lub 6 miesięcy",
+    "liquidityEn": "Locked 3 or 6 months",
+    "url": "https://www.pkobp.pl/klient-indywidualny/oszczedzanie-inwestycje/lokata-na-nowe-srodki?srsltid=AfmBOoq3cYj_WHS3ru_GVh1DAZvnKmmWUQt7_mzLwIPjicQ3kdD78bZb"
+  },
+  {
+    "id": "bonds",
+    "name": "Obligacje skarbowe",
+    "nameEn": "Government Bonds",
+    "tagline": "Gwarantowane przez Skarb Państwa. Wyższy zysk, dłuższy horyzont.",
+    "taglineEn": "State-guaranteed. Higher yield, longer horizon.",
+    "return": "~6–7% rocznie",
+    "returnEn": "~6–7% annually",
+    "risk": "Niskie",
+    "riskEn": "Low",
+    "liquidity": "Zablokowane na 12 miesięcy",
+    "liquidityEn": "Locked 12 months",
+    "url": "https://www.pkobp.pl/klient-indywidualny/oszczedzanie-inwestycje/obligacje-skarbowe?srsltid=AfmBOoptWwBEulmPSWVOyBubrXwog5OqB_com81BRWYfW_d253hKdiwZ"
+  },
+  {
+    "id": "pko_tfi",
+    "name": "PKO TFI — Fundusz Obligacyjny",
+    "nameEn": "PKO TFI — Bond Fund",
+    "tagline": "Zdywersyfikowany fundusz z niską zmiennością. Wyjście w każdym miesiącu.",
+    "taglineEn": "Diversified fund, low volatility. Exit any month.",
+    "return": "~4–7% rocznie",
+    "returnEn": "~4–7% annually",
+    "risk": "Niskie–średnie",
+    "riskEn": "Low–medium",
+    "liquidity": "Wypłata w każdym miesiącu",
+    "liquidityEn": "Withdraw any month",
+    "url": "https://www.pkobp.pl/klient-indywidualny/oszczedzanie-inwestycje/fundusze-inwestycyjne?srsltid=AfmBOoppFA5wO_DDER3WvbIGSr6R7wIAjwlr_RlW6pdEOu2je8Mlh7y0"
+  }
+]
